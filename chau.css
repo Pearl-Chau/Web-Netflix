@@ -1,0 +1,68 @@
+/* /////////////////////////////////////////////// CHAU ////////////////////////////////////////////  */
+.box-box1{
+    width: 980px;
+    height: 246.137px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 60.763px 0px 60.763px;
+    border: none;
+    margin: 20px 208.837px 17px 208.837px;
+    background: #141414;
+    color: #fff;
+}
+.column{
+    width: 980px;
+    font-size: 28px;
+    height: 30.425px;
+    margin: 0px 0px 11.520px 0px;
+    display: flex;
+}
+.column:hover{
+    cursor: pointer;
+}
+.column1{
+    width: 36px;
+    height: 30.425px;
+    margin: 0px 15px 0px 0px;
+}
+.column-layout{
+    font-size: 13px;
+    width: 980px;
+    height: 126.400px;
+    margin: 0px 0px 14px 0px;
+    display: flex;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.column-item-1{
+    width: 245px;
+    height: 126.400px;
+    color: grey;
+}
+.column-item-2:hover{
+    cursor: pointer;
+    text-decoration: underline grey; 
+}
+.box_11{
+    width: 980px;
+    height: 50.600px;  
+}
+.service-code{
+    margin-bottom: 20px; 
+    font-size: 13px;
+    padding: 6.5px;
+    color: grey;
+    border: 1px solid grey; 
+    background-color: initial; 
+}
+.service-code:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.box_12{
+    width: 980px;
+    height: 13.200px;
+    margin: 0px 0px 15px 0px;
+    font-size: 11px;
+    color: grey;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}

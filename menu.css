@@ -1,0 +1,66 @@
+
+*{
+    text-decoration: none;
+}
+/* .menu{
+    background-color: blue;
+    width: 150px;
+    height: 1000px;
+} */
+ul, li{
+    list-style: none;
+}
+.menu > ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+.menu > ul > li {
+    /* width: 40%; */
+    position: relative;
+}
+
+.products li a:hover{
+    color: aliceblue;
+}
+
+.products > ul{
+    padding-left: 20px;
+}
+.products > ul > li:hover{
+    color: aliceblue;
+    text-decoration: underline aliceblue;
+    font-weight: bold;
+}
+.products > ul > li{
+    padding-top: 5px;
+}
+.products > ul > li a{
+    color: rgb(240, 233, 233);
+    padding-top: 5px;
+    text-align: center;
+    margin: 0px auto;
+}
+.products{
+    position: absolute;
+    width: 200px;
+    background-color: black;
+    text-align: left;
+    height: 400px;
+    display: none;
+    animation-duration: 0.5s;
+    animation-name: products-animation;
+    animation-fill-mode: forwards;
+}
+.menu > ul > li:hover .productss{
+    display: block;
+}
+
+.menu > ul > li:hover .products{
+    display: block;
+}
+@keyframes .products-animation{
+    from {opacity: ;}
+    to {opacity: 0.9;}
+}
